@@ -25,9 +25,9 @@ SWITCHES
 2
 3 R1 - GND
 4
-5 C3 - 49
-6 C2 - 50
-7 C1 - 51
+5 C3 - 8
+6 C2 - 7
+7 C1 - 6
 8
 9
 
@@ -38,7 +38,7 @@ SWITCHES
 
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
-const int buttonLeft = 51, buttonMiddle = 50, buttonRight = 49;
+const int buttonLeft = 6, buttonMiddle = 7, buttonRight = 8;
 
 void setup() {
   // Set button inputs
